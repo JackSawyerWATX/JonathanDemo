@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan!</title>
+    <link rel="icon" type="image/x-icon" href="DevOps-icon.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <!-- MOBILE NAVIGATION -->
+        <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+            <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="toggleNavigation()">&#9776;</a>
+        </div>
+        <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+            <a href="#about"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">ABOUT</a>
+            <a href="#resume"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">RESUME</a>
+            <a href="#contact"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">CONTACT</a>
+        </div>
+
+        <!-- SOCIAL SECTION -->
+        <section class="image-section w3-quarter w3-fixed w3-padding-small">
+            <!--IMAGE/AVATAR-->
+            <img src="JonPixels.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;" />
+            <!--SCIAL NETWORK BUTTONS-->
+            <div class="links w3-margin-top w3-padding-small">
+                <a class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">
+                    <i data-feather="facebook"></i>
+                </a>
+                <a class="icon-link w3-text-sand w3-hover-text-amber" href="#instagram" target="_blank">
+                    <i data-feather="instagram"></i>
+                </a>
+                <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">
+                    <i data-feather="twitter"></i>
+                </a>
+                <a class="icon-link w3-text-sand w3-hover-text-amber"
+                    href="https://www.linkedin.com/in/jonathan-fausset-9a6979163/" target="_blank">
+                    <i data-feather="linkedin"></i>
+                </a>
+            </div>
+            <!--CV DOWNLOAD BUTTON-->
+            <div class="w3-container w3-padding-16">
+                <a href="./resume.pdf"
+                    class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large"
+                    target="_blank" download="resume.pdf">
+                    <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+                    <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+                </a>
+            </div>
+        </section>
+
+        <!--CV CONTENT SECTION-->
+        <section class="w3-threequarter w3-padding-large w3-right">
+            <!--DESKTOP NAVIGATION-->
+            <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+                <a href="#home"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM
+                    VITAE</a>
+                <a href="#contact"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+                <a href="#resume"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+                <a href="#about"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+            </div>
+            <div class="content-container w3-margin-top-2">
+                <!--HOME SECTION-->
+                <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+                    <p style="font-style: italic; font-size:large;">"Knowledge is the compass that guides us, but it is hard work that propels us forward on the path to success." -ChatGPT, an AI language model.</p>
+                    <h1>Jonathan Fausset</h1>
+                    <h2>Full Stack & Software Developer</h2>
+                    <p></p>
+                </div>
+
+                <!--ABOUT SECTION-->
+                <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+                    <p class="w3-margin-top-2">
+                        I am a developer who takes initiative and has a keen sense of creativity and thinking outside
+                        the box. I have a strong ability to breakdown complex workflows into workable tasks while
+                        demonstrating the leadership skills to complete those, or any tasks given to me. I have a
+                        passion for web development and have honed my skills through various online resources, such as
+                        W3 or Stack Overflow as well as platform and coding language documentation. I have kept sharp
+                        building projects for both myself and others. I am confident that my technical abilities, along
+                        with my strong problem-solving skills and attention to detail, make me a valuable asset for any
+                        web based software development project.
+                </div>
+
+                <!--RESUME-->
+                <div id="resume" class="w3-container w3-margin-top-10-percent w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+
+                        <!--EMPLOYMENT HISTORY SECTION-->
+                        <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+                        <div class="">
+                            <h4>Freelance Full Stack Developer </h4>
+                            <p style="font-weight: bold;">November 2022 - Present</p>
+                            <ul class="w3-ul" style="font-weight: 500;">
+                                <li>&#x2022; Built sites using HTML, CSS, and JavaScript for functionality in a React.js
+                                    environment</li>
+                                <li>&#x2022; Java for login and registration validations</li>
+                                <li>&#x2022; Used Bcrypt for hashing passwords and security</li>
+                                <li>&#x2022; Built databases using SQL to store and manage text, audio/video entries,
+                                    timestamps</li>
+                                <li>&#x2022; Used AWS services for hosting</li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <h4>Full Stack Java Developer @ Pyramid Consulting</h4>
+                            <p style="font-weight: bold;">April 2022 - December 2022 </p>
+                            <ul class="w3-ul" style="font-weight: 500;">
+                                <li>&#x2022; Created functions, programs, and APIs using Java frameworks</li>
+                                <li>&#x2022; Hosted applications using AWS, Cloud Computing, EC2 instance types, elastic
+                                    block storage and S3, as well as monitor analytics with CloudWatch and CloudTrail
+                                </li>
+                                <li>&#x2022; Built migration, innovation, and database management using SQL</li>
+                                <li>&#x2022; Used GitHub for source control and collaborative development</li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <h4>Managing Director @ Bishop Motion Pictures</h4>
+                            <p style="font-weight: bold;">September 2010 – December 2020</p>
+                            <ul class="w3-ul" style="font-weight: 500;">
+                                <li>&#x2022; Successfully managed contract employees and delegated tasks for web
+                                    development projects</li>
+                                <li>&#x2022; Established and maintained relationships with vendors, financial
+                                    institutions, and state offices</li>
+                                <li>&#x2022; Provided industry-specific training and coaching to clients on web-based
+                                    products</li>
+                                <li>&#x2022; Developed key presentations for team members and clients, creating national
+                                    and international marketing tools for multinational corporations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!---EDUCATION SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY EDUCATION</h3>
+                        <h4>&#x2022; Coding Dojo, Full Stack Development, Bellevue, WA</h4>
+                        <h4>&#x2022; Westwood College, Airframe & Powerplant, Houston, TX</h4>
+                        <h4>&#x2022; Falcon High School, Falcon, CO</h4>
+                    </div>
+
+                    <!--SKILLS SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY SKILLS</h3>
+                        <!--SOFT SKILLS-->
+                        <h4>Soft Skills</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li class="point">&#x2022; Provide expert technical support and assistance to clients.</li>
+                            <li class="point">&#x2022; Assess client needs and provide prompt solutions or refer them to
+                                appropriate support team members.</li>
+                            <li class="point">&#x2022; Conduct personal training sessions for new coworkers, helping
+                                them acquire essential skills.</li>
+                            <li class="point">&#x2022; Maintain strong relationships with clients, ensuring their
+                                satisfaction and contributing to overall store success.</li>
+                            <li class="point">&#x2022; Stay up to date with the latest technologies and product
+                                knowledge.</li>
+                            <li class="point">&#x2022; Ability to assess client needs and provide timely solutions or
+                                referrals.</li>
+                            <li class="point">&#x2022; Adaptability to rotating through different technical specialties
+                                and skill sets.</li>
+                            <li class="point">&#x2022; Thrives in a fast-paced environment with evolving products.</li>
+                        </ul>
+                        <!--TECHNICAL SKILLS-->
+                        <h4>Technical Skills</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <h5>Full Tech Stacks and Programming Languages:</h5>
+                            <ul>
+                                <li>Java, Python, HTML, CSS, JavaScript, React.js, Node.js, Three.js, SQL, Linux</li>
+                            </ul>
+                            <h5>Cloud Services:</h5>
+                            <ul>
+                                <li>AWS Cloud Practitioner & AWS CLI</li>
+                            </ul>
+                            <h5>IDEs, Version Controls, & Development Tools:</h5>
+                            <ul>
+                                <li>VSCode, Spring Tool Suite 4, IntelliJ, NetBeans, MySQL Workbench, GitHub, Atom,
+                                    PyCharm</li>
+                            </ul>
+                            <h5>Frameworks, Environments, & Various Technologies:</h5>
+                            <ul>
+                                <li>Spring Framework, Apache Tomcat, JSON, Django, Node.js, React.js, AJAX</li>
+                            </ul>
+                            <ul>
+                                <li>Elasticsearch, Relational Database Management</li>
+                            </ul>
+                        </ul>
+                    </div>
+
+                    <!--INTERESTS SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>I love mountain hiking and kayaking in my free time</li>
+                            <li>I like to spend time in the kitchen, making various foods</li>
+                            <li>I enjoy reading and relaxing to music of all genres</li>
+                            <li>I enjoy coding</li>
+                        </ul>
+                    </div>
+
+                    <!--REFERENCE SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY REFERENCES</h3>
+                        <p>
+                            <a class="refrence" href="JonathanFaussetLORAdrian.pdf" target="_blank">
+                                <i style="font-weight: bold; font-size: large;">Adrian Gant</i>
+                            </a>
+                        </p>
+                        <p>
+                            <a class="refrence" href="JonathanFausset_rec_SAV.pdf" target="_blank">
+                                <i style="font-weight: bold; font-size: large;">Steven Vuleta</i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <!--CONTACT SECTION-->
+                <div id="contact" class="w3-container w3-margin-top-10-percent w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT
+                        DETAILS</h2>
+                    <div class="w3-margin-top-2" style="font-weight: 500;">
+                        <p>Jonathan Fausset</p>
+                        <p>+1 (206) 713-3756</p>
+                        <p>jonathan.fausset@me.com</p>
+                    </div>
+                </div>
+
+                <!--FOOTER-->
+                <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+                <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+                    <p>© 2023 - Jonathan Fausset</p>
+                    <!-- End footer -->
+                </footer>
+        </section>
+        <!--END OF CV SECTION-->
+
+    </section>
+    <script>
+        // Function to toggle mobile navigation
+        function toggleNavigation() {
+            let nav = document.getElementById("mobile-nav");
+            if (nav.classList.contains('w3-show')) {
+                nav.classList.remove('w3-show');
+            } else {
+                nav.classList.add('w3-show');
+            }
+        }
+
+    </script>
+    <script>
+        // Script to load feather icons
+        feather.replace()
+
+    </script>
+</body>
+
+</html>
