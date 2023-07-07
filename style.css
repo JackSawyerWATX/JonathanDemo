@@ -80,32 +80,32 @@ body * {
     background-color: #04aa6d;
   }
   
-  .w3-ul li {
+  .ul li {
     padding: 8px 0px;
     
   }
   
   /*Utilities*/
   
-  .w3-margin-top-2 {
+  .margin-top-2 {
     margin-top: 32px;
   }
   
-  .w3-margin-top-4 {
+  .margin-top-4 {
     margin-top: 64px;
   }
   
-  .w3-margin-top-10-percent {
+  .margin-top-10-percent {
     margin-top: 5%;
   }
   
-  .w3-sticky {
+  .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
   
-  .w3-fixed {
+  .fixed {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -165,7 +165,7 @@ body * {
       font-size: 24px;
     }
   
-    .w3-fixed {
+    .fixed {
       position: inherit;
     }
   
@@ -182,8 +182,8 @@ body * {
       font-size: 24px;
     }
   
-    .w3-container,
-    .w3-panel {
+    .container,
+    .panel {
       padding: 0.01em;
     }
   
