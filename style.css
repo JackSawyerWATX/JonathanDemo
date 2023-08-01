@@ -200,6 +200,7 @@ ol {
   .container,
   .panel {
     padding: 0.01em;
+    /* padding-bottom: 35px; */
   }
 
   .download-text {
@@ -214,4 +215,6 @@ ol {
   li {
     padding-left: 10px;
   }
+
+
 }
