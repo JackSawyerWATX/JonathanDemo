@@ -41,8 +41,8 @@ ul li {
 
 .image-section img {
   max-width: 60%;
-  max-height: 60%;
-  margin-top: 50px !important;
+  max-height: 50%;
+  margin-top: 40px !important;
   object-fit: cover;
 }
 
@@ -59,7 +59,7 @@ ul li {
 .icon-link {
   text-decoration: none;
   font-size: 48px auto;
-  padding: 26px;
+  padding: 5px;
 }
 
 .content-container {
